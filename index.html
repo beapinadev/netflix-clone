@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix [Clone]</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="container">
+        <div class="menu">
+            <ul>
+                <li><a id="sobre-msg" href="#">Sobre</a></li>
+                <li><a id="trailer-msg" href="#">Trailer</a></li>
+                <li>
+                    <img alt="Netflix" src="./imgs/netflix-logo.png">
+                </li>
+                <li><a id="atores-msg" href="#">Atores</a></li>
+                <li><a id="avaliacoes-msg" href="#">Avaliações</a></li>                
+            </ul>                
+        </div>
+
+        <div class="row ph-30 gap-150 pt-50">
+            <div class="info_serie">
+                <h4 class="titulo">Supernatural</h4>
+                <h6 class="genero m-t-14 m-b-28">Drama, Mistério, Terror</h6>
+                <span class="descricao">
+                    Sam Winchester (Jared Padalecki) cresceu acostumado a caçar coisas de meter medo. Mas isso é passado. A escola de direito acenou para ele. Ele respondeu a esse chamado de maneira normal e segura. E assim foi até o estranho irmão de Sam, Dean (Jensen Ackles), dar as caras portando más notícias: o pai deles, um homem que esteve perseguindo o mal por 22 anos, simplesmente desapareceu. Agora, para encontrá-lo, os irmãos devem caçar aquilo que o pai caçava... E Sam deve retomar a vida que ele pensou ter deixado para trás. 
+                    <a class="readmore" target="_blank" href="https://supernatural.fandom.com/pt-br/wiki/P%C3%A1gina_principal">Ler mais.</a>
+                </span>
+
+                <div class="row m-t-56">
+                    <span>1ª Temporada</span>
+                    <img src="./imgs/chevron-left.png">
+                    <img src="./imgs/chevron-right.png">
+                </div>
+
+                <div class="episodios" id="episodios-container">
+                    <!-- Os cards de episódio serão inseridos aqui -->
+                </div>
+            </div>
+    
+            <img class="poster" src="./imgs/poster.png">
+
+            <div class="social">
+                <ul>
+                    <li><a id="github-icon" href="#"><i class='bx bxl-github'></i></a></li>
+                    <li><a id="linkedin-icon" href="#"><i class='bx bxl-linkedin-square'></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

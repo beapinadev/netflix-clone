@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+}
+body, html {
+
+    background-image: url('./imgs/background.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed; 
+    z-index: 0;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    height: auto;
+    width: 100vw;
+    position: relative;
+
+}
+
+.menu ul {
+    display: flex;
+    flex-direction: row;    
+    list-style-type: none;
+    padding: 2em 25vw;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+ul li {
+    cursor: pointer;
+}
+
+.info_serie {
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    margin: 90px;
+}
+
+.titulo {
+    font-size: 18px;
+}
+
+.genero {
+    font-size: 14px;
+    font-weight: 400;
+}
+.descricao {
+    font-size: 13px;
+}
+.readmore {
+    text-decoration: none;
+    color: red;
+}
+.row {
+    display: flex;
+    flex-direction: row;    
+}
+
+.episodios {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    gap: 15px;
+}
+
+.card-episodio {
+    width: 250px;
+    height: 130px;
+    background-image: url(imgs/temporada.jpg);
+    border-radius: 4px;
+    background-size: cover;
+    background-position: center;
+}
+.card-episodio h6, p {
+    display: none;
+}
+
+.m-t-14 {
+    margin-top: 14px;
+}
+
+.m-t-20 {
+    margin-top: 20px;
+}
+
+.m-b-28 {
+    margin-bottom: 28px;
+}
+
+.m-t-56 {
+    margin-top: 56px;
+}
+
+.poster {
+    width: auto;
+    height: 500px;
+    margin-right: 40px;
+    margin-top: 25px
+}
+
+.ph-30 {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.gap-150 {
+    gap: 150px;
+}
+
+.pt-50 {
+    padding-top: 50px;
+}
+.social {
+    position: fixed;
+    top: 45%;
+    right: 0;
+}
+.social ul {
+    padding: 0;
+    margin-right: 55px;
+}
+.social li {
+    list-style-type: none;
+    font-size: 35px;
+}
+
